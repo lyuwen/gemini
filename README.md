@@ -4,8 +4,6 @@ Gemini is a modern LaTeX [beamerposter] theme.
 This is a modified version that does not require LuaLaTeX.
 
 
-If you're looking for a beamer presentation theme, take a look at [Auriga].
-
 ## Dependencies
 
 * A TeX installation.
@@ -25,11 +23,6 @@ If you're looking for a beamer presentation theme, take a look at [Auriga].
 
 1. Run `make` to build your poster
 
-## FAQ
-
-See the [FAQ] in the Wiki for answers to frequently asked questions such as how
-to add an institution logo to the poster.
-
 ## Themes
 
 Gemini currently includes three color themes:
@@ -46,24 +39,24 @@ really easy!) or use the default Gemini theme.
 ### Gemini theme
 
 <p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-gemini.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-gemini-small.png">
+<a href="https://raw.githubusercontent.com/lyuwen/gemini/assets/poster-gemini.pdf">
+<img src="https://raw.githubusercontent.com/lyuwen/gemini/assets/poster-gemini-small.png">
 </a>
 </p>
 
 ### MIT theme
 
 <p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-mit.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-mit-small.png">
+<a href="https://raw.githubusercontent.com/lyuwen/gemini/assets/poster-mit.pdf">
+<img src="https://raw.githubusercontent.com/lyuwen/gemini/assets/poster-mit-small.png">
 </a>
 </p>
 
 ### LabSix theme
 
 <p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-labsix.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-labsix-small.png">
+<a href="https://raw.githubusercontent.com/lyuwen/gemini/assets/poster-labsix.pdf">
+<img src="https://raw.githubusercontent.com/lyuwen/gemini/assets/poster-labsix-small.png">
 </a>
 </p>
 
@@ -88,7 +81,5 @@ Copyright (c) 2018-2019 Anish Athalye. Released under the MIT License. See
 Copyright (c) 2020 Lyuwen Fu.
 
 [beamerposter]: https://github.com/deselaers/latex-beamerposter
-[Auriga]: https://github.com/anishathalye/auriga
 [CTAN]: https://ctan.org/
 [license]: LICENSE.md
-[FAQ]: https://github.com/anishathalye/gemini/wiki/FAQ
