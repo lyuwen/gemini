@@ -9,7 +9,7 @@ DEPS := \
 	beamercolorthemelabsix.sty \
 
 
-LATEX  := lualatex
+LATEX  := pdflatex
 BIBTEX := bibtex
 
 LATEXOPTS := -interaction nonstopmode
