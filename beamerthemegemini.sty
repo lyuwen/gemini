@@ -5,7 +5,7 @@
 % Dependencies
 % ====================
 
-% \RequirePackage{xcolor}
+\RequirePackage{xcolor}
 \RequirePackage{exscale}
 \RequirePackage{ragged2e}
 \RequirePackage{changepage}
@@ -43,6 +43,11 @@
 % ====================
 % Macros
 % ====================
+
+\makeatletter
+\newcommand{\colorprovide}[2]{%
+  \@ifundefined{\string\color@#1}{\colorlet{#1}{#2}}{}}
+\makeatother
 
 \newcommand{\samelineand}{\qquad}
 

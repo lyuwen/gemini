@@ -5,44 +5,51 @@
 % Definitions
 % ====================
 
-\definecolor{lightgray}{RGB}{245, 246, 250}
+% \definecolor{lightgray}{RGB}{245, 246, 250}
 \definecolor{blue}{RGB}{64, 115, 158}
-\definecolor{darkblue}{RGB}{39, 60, 117}
+% \definecolor{darkblue}{RGB}{39, 60, 117}
+%
+\colorprovide{textcolor}{black}
+\colorprovide{bgcolor}{white}
+\colorprovide{accentcolor}{blue}
+%
+\colorprovide{lighttextcolor}{textcolor!5!bgcolor}
+\colorprovide{darkbgcolor}{textcolor!20!accentcolor}
 
 % ====================
 % Theme
 % ====================
 
 % Basic colors
-\setbeamercolor{palette primary}{fg=black,bg=white}
-\setbeamercolor{palette secondary}{fg=black,bg=white}
-\setbeamercolor{palette tertiary}{bg=black,fg=white}
-\setbeamercolor{palette quaternary}{fg=black,bg=white}
-\setbeamercolor{structure}{fg=darkblue}
+\setbeamercolor{palette primary}{fg=textcolor,bg=bgcolor}
+\setbeamercolor{palette secondary}{fg=textcolor,bg=bgcolor}
+\setbeamercolor{palette tertiary}{bg=textcolor,fg=bgcolor}
+\setbeamercolor{palette quaternary}{fg=textcolor,bg=bgcolor}
+\setbeamercolor{structure}{fg=darkbgcolor}
 
 % Headline
-\setbeamercolor{headline}{fg=lightgray,bg=blue}
-\setbeamercolor{headline rule}{bg=darkblue}
+\setbeamercolor{headline}{fg=lighttextcolor,bg=accentcolor}
+\setbeamercolor{headline rule}{bg=darkbgcolor}
 
 % Block
-\setbeamercolor{block title}{fg=blue,bg=white}
-\setbeamercolor{block separator}{bg=black}
-\setbeamercolor{block body}{fg=black,bg=white}
+\setbeamercolor{block title}{fg=accentcolor,bg=bgcolor}
+\setbeamercolor{block separator}{bg=textcolor}
+\setbeamercolor{block body}{fg=textcolor,bg=bgcolor}
 
 % Alert Block
-\setbeamercolor{block alerted title}{fg=blue,bg=lightgray}
-\setbeamercolor{block alerted separator}{bg=black}
-\setbeamercolor{block alerted body}{fg=black,bg=lightgray}
+\setbeamercolor{block alerted title}{fg=accentcolor,bg=lighttextcolor}
+\setbeamercolor{block alerted separator}{bg=textcolor}
+\setbeamercolor{block alerted body}{fg=textcolor,bg=lighttextcolor}
 
 % Heading
-\setbeamercolor{heading}{fg=black}
+\setbeamercolor{heading}{fg=textcolor}
 
 % Itemize
-\setbeamercolor{item}{fg=darkblue}
+\setbeamercolor{item}{fg=darkbgcolor}
 
 % Bibliography
-\setbeamercolor{bibliography item}{fg=black}
-\setbeamercolor{bibliography entry author}{fg=black}
-\setbeamercolor{bibliography entry title}{fg=black}
-\setbeamercolor{bibliography entry location}{fg=black}
-\setbeamercolor{bibliography entry note}{fg=black}
+\setbeamercolor{bibliography item}{fg=textcolor}
+\setbeamercolor{bibliography entry author}{fg=textcolor}
+\setbeamercolor{bibliography entry title}{fg=textcolor}
+\setbeamercolor{bibliography entry location}{fg=textcolor}
+\setbeamercolor{bibliography entry note}{fg=textcolor}
