@@ -1,21 +1,16 @@
-# Gemini [![Build Status](https://travis-ci.com/anishathalye/gemini.svg?branch=master)](https://travis-ci.com/anishathalye/gemini)
+# Gemini [![Build Status](https://travis-ci.com/lyuwen/gemini.svg?branch=master)](https://travis-ci.com/lyuwen/gemini)
 
 Gemini is a modern LaTeX [beamerposter] theme.
+This is a modified version that does not require LuaLaTeX.
 
-<p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-gemini.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-gemini-small.png">
-</a>
-</p>
 
 If you're looking for a beamer presentation theme, take a look at [Auriga].
 
 ## Dependencies
 
-* A TeX installation that includes [LuaTeX]
+* A TeX installation.
 * LaTeX package dependencies including beamerposter (these usually come with
   your TeX installation, but if not, you can get them from [CTAN])
-* [Raleway] and [Lato], which are both available under Open Font License
 
 ## Usage
 
@@ -39,13 +34,22 @@ to add an institution logo to the poster.
 
 Gemini currently includes three color themes:
 
-* `gemini` (default)
+* `default`
+* `gemini`
 * `mit`
 * `labsix`
 
 The alternative themes are intended to be inspiration for you to make your own
 color theme. You're highly recommended to make your own color theme (it's
 really easy!) or use the default Gemini theme.
+
+### Gemini theme
+
+<p align="center">
+<a href="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-gemini.pdf">
+<img src="https://raw.githubusercontent.com/anishathalye/gemini/assets/poster-gemini-small.png">
+</a>
+</p>
 
 ### MIT theme
 
@@ -80,12 +84,10 @@ investing a lot of time in implementing a new feature.
 
 Copyright (c) 2018-2019 Anish Athalye. Released under the MIT License. See
 [LICENSE.md][license] for details.
+Copyright (c) 2020 Lyuwen Fu.
 
 [beamerposter]: https://github.com/deselaers/latex-beamerposter
 [Auriga]: https://github.com/anishathalye/auriga
-[LuaTeX]: http://www.luatex.org/
 [CTAN]: https://ctan.org/
-[Raleway]: https://www.fontsquirrel.com/fonts/raleway
-[Lato]: https://www.fontsquirrel.com/fonts/lato
 [license]: LICENSE.md
 [FAQ]: https://github.com/anishathalye/gemini/wiki/FAQ
