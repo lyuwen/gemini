@@ -84,6 +84,7 @@ investing a lot of time in implementing a new feature.
 
 Copyright (c) 2018-2019 Anish Athalye. Released under the MIT License. See
 [LICENSE.md][license] for details.
+
 Copyright (c) 2020 Lyuwen Fu.
 
 [beamerposter]: https://github.com/deselaers/latex-beamerposter
