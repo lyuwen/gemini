@@ -1,7 +1,8 @@
 # Gemini [![Build Status](https://travis-ci.com/lyuwen/gemini.svg?branch=master)](https://travis-ci.com/lyuwen/gemini)
 
 Gemini is a modern LaTeX [beamerposter] theme.
-This is a modified version that does not require LuaLaTeX.
+This is a modified version that does not require LuaLaTeX,
+  the original version is [**here**](https://github.com/anishathalye/gemini).
 
 
 ## Dependencies
