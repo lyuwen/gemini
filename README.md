@@ -33,6 +33,29 @@ Gemini currently includes three color themes:
 * `mit`
 * `labsix`
 
+## Custom define color schemes
+
+With `gemini` color theme, user now have the freedom the custom define their color schemes.
+To define a custom scheme, put set following color names to the desired colors before the command
+`\usecolortheme{gemini}`:
+
+```
+\definecolor{accentcolor}{RGB}{62, 138, 189}
+\definecolor{textcolor}{0, 0, 0}
+\definecolor{bgcolor}{RGB}{255, 255, 255}
+```
+
+Additionally the following colors will by default be a mixture of the three colors defined above,
+but it is also possible to override those preset mixing rules:
+
+```
+\definecolor{lighttextcolor}{RGB}{215, 217, 218}
+\definecolor{darkbgcolor}{RGB}{19, 76, 113}
+```
+
+Alternative to `\definecolor` command, `\colorlet` command can also be used to define color using
+those already defined colors, either simply aliasing or a mixing of some colors.
+
 The alternative themes are intended to be inspiration for you to make your own
 color theme. You're highly recommended to make your own color theme (it's
 really easy!) or use the default Gemini theme.
